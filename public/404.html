@@ -6,9 +6,9 @@
         let l = window.location
         let port = l.port ? ':' + l.port : ''
 
-        // http://hushimi.github.io/portfolio/?p=/hoge に遷移させる
+        // http://hushimi.github.io/componentlist/?p=/hoge に遷移させる
         l.replace(
-            `${l.protocol}//${l.hostname}${port}/portfolio/?p=${l.pathname.split('/').slice(1, 1 + baseSegment).join('/')}`
+            `${l.protocol}//${l.hostname}${port}/componentlist/?p=${l.pathname.split('/').slice(1, 1 + baseSegment).join('/')}`
         )
     </script>
     <meta charset="UTF-8">
