@@ -2,7 +2,7 @@
     <footer>
         <div class="text-white flex flex-col h-full">
             <div class="mt-3">
-                <a href="https://github.com/hushimi/portfolio">
+                <a href="https://github.com/hushimi/componentlist">
                     <i class="devicon-github-original-wordmark github"></i>
                 </a>
             </div>
@@ -27,15 +27,19 @@ export default defineComponent({
 footer {
   width: 100%;
   height: 80px;
+  color: #55848c;
   margin-top: auto;
-  background-color: #2f2e33;
+  background-color: #eef1f6;
 }
 
 .github {
     font-size: 2rem;
+    color: #000;
 }
 
 .copyright {
     margin-top: auto;
+    color: #55848c;
+    font-weight: bold;
 }
 </style>

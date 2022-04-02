@@ -1,13 +1,16 @@
 <template>
     <div id="app">
         <Navigation />
-        <router-view/>
+        <div class="main">
+            <router-view/>
+        </div>
         <Footer />
     </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
+import 'normalize.css'
 import 'devicon'
 import Navigation from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
@@ -29,9 +32,11 @@ export default defineComponent({
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: $primary;
 
         display: flex;
         flex-direction: column;
+    }
+    .main {
+        padding-top: $navheight;
     }
 </style>

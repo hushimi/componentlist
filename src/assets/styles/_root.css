@@ -11,21 +11,6 @@
 
 body {
   font-family: "Sawarabi Gothic", sans-serif;
-  background-color: var(--secondary);
   padding: 0 10px 0 0;
-  color: var(--primary);
-}
-
-/* mobile: cols1 */
-.two-c-six-r {
-  @apply grid grid-cols-1 grid-rows-6 md:grid-cols-2;
-}
-
-/* mobile: cols1 */
-.two-c-merge {
-  @apply col-span-1 md:col-span-2;
-}
-
-.two-r-merge {
-  @apply row-span-2 md:row-span-3;
+  color: #323233;
 }

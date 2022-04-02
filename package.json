@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "componentlist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -31,6 +31,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "prettier": "^2.2.1",
     "sass": "^1.42.1",
     "sass-loader": "^10",
