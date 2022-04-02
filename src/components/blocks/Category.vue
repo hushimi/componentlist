@@ -1,6 +1,6 @@
 <template>
     <div class="category-title">
-        <h4>Section Title</h4>
+        <h4>カテゴリタイトル</h4>
     </div>
 </template>
 
@@ -8,7 +8,6 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-
 	setup() {
 	},
 })

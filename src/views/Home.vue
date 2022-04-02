@@ -3,16 +3,19 @@
 		<div class="block">
 			<div class="block_label">
 				<p>カテゴリタイトル</p>
-				<a href="#">Category.vue</a>
+				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Category.vue"
+					target="_blank" rel="noopener noreferer">
+					Category.vue
+				</a>
 			</div>
 			<Category></Category>
 		</div>
 		<div class="block">
 			<div class="block_label">
-				<p>カテゴリタイトル</p>
-				<a href="#">Category.vue</a>
+				<p>Textbox & label</p>
+				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Textbox.vue">Textbox.vue</a>
 			</div>
-			<Category></Category>
+			<TextBox></TextBox>
 		</div>
     </div>
 </template>
@@ -20,10 +23,12 @@
 <script>
 import { defineComponent } from 'vue'
 import Category from '@/components/blocks/Category'
+import TextBox from '@/components/blocks/Textbox'
 
 export default defineComponent({
 	components: {
-		Category
+		Category,
+		TextBox
 	},
 
 	setup() {
