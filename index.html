@@ -1,18 +1,1 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><script>// Reloadすると404になる事象への対応
-        (function (location) {
-            console.log(location)
-            if (location.search) {
-                let q = {}
-                // ?p=/fooの分解
-                location.search.slice(1).split('&').forEach(function (v) {
-                    // 'p=/foo'を{p: '/foo'}に修正
-                    let param = v.split('=')
-                    q[param[0]] = param[1]
-                })
-                if (q.p !== undefined) {
-                    let urlPath = location.pathname.slice(0, -1) + (q.p || '')
-                    // 指定のURLへ遷移
-                    window.history.replaceState(null, null, urlPath)
-                }
-            }
-        }(window.location))</script><link rel="icon" href="/favicon.ico"><title>componentlist</title><link href="/css/app.bedf4d53.css" rel="preload" as="style"><link href="/css/chunk-vendors.7143013a.css" rel="preload" as="style"><link href="/js/app.28133ddd.js" rel="preload" as="script"><link href="/js/chunk-vendors.feeec58d.js" rel="preload" as="script"><link href="/css/chunk-vendors.7143013a.css" rel="stylesheet"><link href="/css/app.bedf4d53.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but componentlist doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.feeec58d.js"></script><script src="/js/app.28133ddd.js"></script></body></html>
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>componentlist</title><link href="/css/app.bedf4d53.css" rel="preload" as="style"><link href="/css/chunk-vendors.7143013a.css" rel="preload" as="style"><link href="/js/app.28133ddd.js" rel="preload" as="script"><link href="/js/chunk-vendors.feeec58d.js" rel="preload" as="script"><link href="/css/chunk-vendors.7143013a.css" rel="stylesheet"><link href="/css/app.bedf4d53.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but componentlist doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.feeec58d.js"></script><script src="/js/app.28133ddd.js"></script></body></html>
