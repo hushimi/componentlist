@@ -10,12 +10,27 @@
 			</div>
 			<Category></Category>
 		</div>
+
 		<div class="block">
 			<div class="block_label">
 				<p>Textbox & label</p>
-				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Textbox.vue">Textbox.vue</a>
+				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Textbox.vue"
+					target="_blank" rel="noopener noreferer">
+					Textbox.vue
+				</a>
 			</div>
 			<TextBox></TextBox>
+		</div>
+
+		<div class="block">
+			<div class="block_label">
+				<p>Loading icon</p>
+				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Loading.vue"
+					target="_blank" rel="noopener noreferer">
+					Loading.vue
+				</a>
+			</div>
+			<Loading></Loading>
 		</div>
     </div>
 </template>
@@ -24,11 +39,13 @@
 import { defineComponent } from 'vue'
 import Category from '@/components/blocks/Category'
 import TextBox from '@/components/blocks/Textbox'
+import Loading from '@/components/blocks/Loading'
 
 export default defineComponent({
 	components: {
 		Category,
-		TextBox
+		TextBox,
+		Loading
 	},
 
 	setup() {

@@ -6,7 +6,7 @@ module.exports = {
 			},
 		}
 	},
-	publicPath: '/componentlist',
+	publicPath: process.env.NODE_ENV === 'production' ? '/componentlist/' : '/',
 	outputDir: 'docs',
 	configureWebpack: {
 		performance: {
