@@ -29,7 +29,7 @@ footer {
   height: 80px;
   color: #55848c;
   margin-top: auto;
-  background-color: #edf0f0;
+  background-color: #fefeff;
 }
 
 .github {

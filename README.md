@@ -54,6 +54,13 @@ App.vue
 - 基本的にブロック・エレメントの下に余白を設ける
 - 余白はブロックに対して tailwind のユーティリティクラスをつける
 
+## Category 一覧
+
+- Common
+- FormParts
+- Tables
+- Animation
+
 ## normalize.css
 
 - [参考](https://qiita.com/hogesuke_1/items/b12c65e8485289da4146)

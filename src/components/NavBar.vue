@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <div class="site-logo">
+    <nav class="site-nav">
+        <div class="mx-auto">
             <router-link to="/" class="neontext font-bold text-xl pl-3">0xF3</router-link>
         </div>
     </nav>

@@ -1,7 +1,11 @@
 @import "variables";
 
+body {
+    background: #edf1f1;
+}
+
 // Navigation
-nav {
+.site-nav {
   height: $navheight;
   width: 100%;
   display: flex;
@@ -54,7 +58,7 @@ nav {
 // Block説明
 .block {
   margin-bottom: 30px;
-  .block_label {
+  &_label {
     display: flex;
     justify-content: space-between;
     width: 100%;
