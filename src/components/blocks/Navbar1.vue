@@ -119,6 +119,7 @@ export default defineComponent({
         list-style: none;
         margin: 0;
         padding: 0;
+        z-index: 999;
         li {
             float: left;
             position: relative;
@@ -145,12 +146,14 @@ export default defineComponent({
     &_dropdown {
         position: absolute;
         right: 0;
-        display: none;
-        z-index: 1;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease-in-out;
+        z-index: 999;
         background: #fff;
         box-shadow: 0 0 35px 0 rgba(0,0,0,0.25);
         &.active {
-            display: block;
+            max-height: 1000px;
         }
         li a {
             background: #edf1f1;

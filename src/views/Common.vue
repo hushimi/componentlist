@@ -10,6 +10,16 @@
 			</div>
 			<Navbar1></Navbar1>
 		</div>
+        <div class="block">
+			<div class="block_label">
+				<p>Responsive footer1</p>
+				<a href="https://github.com/hushimi/componentlist/blob/master/src/components/blocks/Footer1.vue"
+					target="_blank" rel="noopener noreferer">
+					Code
+				</a>
+			</div>
+			<Footer1></Footer1>
+		</div>
 		<div class="block">
 			<div class="block_label">
 				<p>カテゴリタイトル</p>
@@ -27,11 +37,13 @@
 import { defineComponent } from 'vue'
 import Category from '@/components/blocks/Category'
 import Navbar1 from '@/components/blocks/Navbar1'
+import Footer1 from '@/components/blocks/Footer1'
 
 export default defineComponent({
 	components: {
 		Category,
-		Navbar1
+		Navbar1,
+		Footer1
 	},
 
 	setup() {
